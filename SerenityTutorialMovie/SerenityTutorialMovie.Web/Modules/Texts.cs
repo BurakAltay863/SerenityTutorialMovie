@@ -21,9 +21,11 @@ namespace SerenityTutorialMovie
                     public static LocalText CustomText = "User Translation in Target Language";
                     public static LocalText OverrideConfirmation = "Overwrite user translation with clicked text?";
                     public static LocalText SaveChangesButton = "Save Changes";
+                    
                 }
             }
         }
+       
 
         public static class Forms
         {

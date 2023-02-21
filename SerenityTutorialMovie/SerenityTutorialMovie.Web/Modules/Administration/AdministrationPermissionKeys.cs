@@ -13,5 +13,8 @@ namespace SerenityTutorialMovie.Administration
 
         [Description("Languages and Translations")]
         public const string Translation = "Administration:Translation";
+
+        [Description("Background Jobs")]
+        public const string BackgroundJob = "Administration:BackgroundJob";
     }
 }

@@ -19,6 +19,7 @@ namespace SerenityTutorialMovie.Default.Repositories
 
         public SaveResponse Update(IUnitOfWork uow, SaveRequest<MyRow> request)
         {
+            
             return new MySaveHandler().Process(uow, request, SaveRequestType.Update);
         }
 
