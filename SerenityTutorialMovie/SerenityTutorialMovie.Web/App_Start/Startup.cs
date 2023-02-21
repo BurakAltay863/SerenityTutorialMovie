@@ -54,9 +54,8 @@ namespace SerenityTutorialMovie
             app.UseHangfireDashboard("/jobs", options);
 
             // Setting up some example jobs
-            BackgroundJob.Enqueue<Common.Jobs.SimpleJob>(job => job.Run());
-            RecurringJob.AddOrUpdate<Common.Jobs.SimpleJob>(job => job.Run(), Cron.Hourly);
-            RecurringJob.AddOrUpdate<Common.Jobs.SimpleJob>(job => job.Run(), "0 * * * *");
+           
+            RecurringJob.AddOrUpdate<Common.Jobs.SimpleJob>(a => a.Run(), Cron.Daily);
         }
     }
 }

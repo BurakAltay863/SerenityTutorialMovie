@@ -1751,7 +1751,6 @@
     <Compile Include="Imports\ClientTypes\Default.MovieCastEditorAttribute.cs">
       <DependentUpon>ClientTypes.tt</DependentUpon>
     </Compile>
-    <Compile Include="Jobs\Job.cs" />
     <Compile Include="Migrations\DefaultDB\DefaultDB_20221122_115100_PersonMovieImages.cs" />
     <Compile Include="Migrations\DefaultDB\DefaultDB_13022023_135200_SampleMovies.cs" />
     <Compile Include="Migrations\DefaultDB\DefaultDB_20221116_161200_PersonAndMovieCast.cs" />
@@ -1810,7 +1809,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>MVC.tt</DependentUpon>
     </Compile>
-    <Compile Include="Modules\Common\Jobs\SimpleJobs.cs" />
+    <Compile Include="Modules\Common\Jobs\SimpleJob.cs" />
     <Compile Include="Modules\Common\Navigation\NavigationItems.cs" />
     <Compile Include="Modules\Common\Navigation\NavigationModel.cs" />
     <Compile Include="Modules\Common\Reporting\DynamicDataReport.cs" />

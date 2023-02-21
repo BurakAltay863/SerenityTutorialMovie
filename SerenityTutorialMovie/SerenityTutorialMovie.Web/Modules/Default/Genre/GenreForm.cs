@@ -14,5 +14,6 @@ namespace SerenityTutorialMovie.Default.Forms
     public class GenreForm
     {
         public String Name { get; set; }
+      
     }
 }

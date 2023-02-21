@@ -14,7 +14,7 @@ namespace SerenityTutorialMovie.Common.Jobs
 
         public void Run()
         {
-            new Exception("Hello Serenity from Hangfire!").Log();
+            Console.WriteLine("Daily Job");
 
             // using (var connection = Connections.NewFor<MyRow>())
             // {
